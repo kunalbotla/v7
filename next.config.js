@@ -1,17 +1,6 @@
 const withNextra = require('nextra')('nextra-theme-blog', './theme.config.js')
-module.exports = withNextra()
-
-const withMDX = require('@next/mdx')({
-  extension: /\.mdx?$/,
-  options: {
-    remarkPlugins: [],
-    rehypePlugins: [],
-  },
-})
-module.exports = withMDX({
-  pageExtensions: ['ts', 'tsx', 'mdx'],
-  reactStrictMode: true,
-  async redirects() {
+module.exports = withNextra({
+ async redirects() {
     return [
       {
         source: '/zoom',
@@ -19,5 +8,6 @@ module.exports = withMDX({
         permanent: false,
       },
     ]
-  },
-})
+  }, 
+}
+)
