@@ -63,3 +63,18 @@ img.next-image {
 .nav-line .nav-link {
   color: #69778c;
 }
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.photo-item {
+  width: 40%;
+  height: 40%;
+  /* grid-column-start: 1;
+  grid-column-end: auto;
+  grid-row-start: 1;
+  grid-row-end: 3; */
+}
