@@ -12,6 +12,10 @@ I'm honored to be closen by the other Democrats of Lexington and intend to atten
 
 I'd love to hear from other teenagers and Lexington residents about their thoughts on candidates.
 
+reach me at:
+
 [kunal [at] kunalbotla [dot] com](mailto:kunal@kunalbotla.com)
+
 [instagram: kunal.botla](https://instagram.com/kunal.botla)
+
 [twitter: kunalbotla](https://twitter.com/kunalbotla)
