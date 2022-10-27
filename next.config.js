@@ -3,8 +3,13 @@ module.exports = withNextra({
  async redirects() {
     return [
       {
-        source: '/:slug*',
-        destination: 'https://kunalbotla.com/:slug*',
+        source: '/',
+        destination: 'https://kunalbotla.com/',
+        permanent: false,
+      },
+      {
+        source: '/:path*',
+        destination: 'https://kunalbotla.com/:path*',
         permanent: false,
       },
       {
